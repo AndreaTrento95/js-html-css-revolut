@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
 
-    $('#pointer').click(functio(){
+    $('.pointer').click(functio(){
         
-       $('.dropdown').toggleClass('active');
+       $(this).find('.dropdown').toggleClass('active');
     })
 
 
