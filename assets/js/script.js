@@ -1,10 +1,19 @@
 $(document).ready(function(){
 
 
-    $('.pointer').click(functio(){
+    $('.pointer').mouseenter(function(){
         
-       $(this).find('.dropdown').toggleClass('active');
+        
+       $(this).find('.dropdown').addClass('active');
+
+       
     })
+    
+    $('.pointer').mouseleave(function(){
+
+        $(this).find('.dropdown').removeClass('active');
+
+    }) 
 
 
 })
